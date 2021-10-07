@@ -1,10 +1,9 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-   border: none;
+    border: none;
 }
 
 
@@ -91,7 +90,7 @@ h2 {
 
 /* //////main\\\\\\ */
 
-#header-img{
+#header-img {
     width: 80vw;
     height: 100vh;
     background-image: url("./assets/header.jpg");
@@ -103,14 +102,14 @@ h2 {
     align-items: center;
 }
 
-#header-img h1{
+#header-img h1 {
     color: #FD5948;
     font-weight: bold;
     font-size: 8rem;
-    
+
 }
 
-.gallery-one{
+.gallery-one {
     width: 85vw;
     display: grid;
     grid-template-columns: 600px 100px 100px 500px 100px 100px;
@@ -120,41 +119,43 @@ h2 {
 
 
 
-.colorbox1{
+.colorbox1 {
     background-color: #FBFFA7;
     grid-area: 1/2/6/6;
 
 }
 
-#photo1{
+#photo1 {
     background-image: url(./assets/photo-1.jpg);
     background-size: cover;
     grid-area: 2/1/5/3;
     z-index: 5;
 }
 
-#photo2{
+#photo2 {
     background-image: url(./assets/photo-2.jpg);
     grid-area: 3/4/4/5;
     z-index: 5;
     background-size: cover;
 }
 
-.video{
+.video {
     text-align: center;
 }
 
 
-.textbox{
+.textbox {
     width: 50vw;
     margin: 1rem auto;
 }
-.textbox p{
+
+.textbox p {
     line-height: 1.9rem;
     padding: 10px;
 
 }
-.textbox p:first-child{
+
+.textbox p:first-child {
     font-weight: bold;
     font-size: 1.4rem;
 
@@ -384,7 +385,7 @@ footer section div {
     padding-top: 5rem;
 }
 
-footer section div{
+footer section div {
     padding-top: 4rem;
 }
 
@@ -398,11 +399,11 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: .5fr 1fr 1fr .5fr;
-    grid-template-areas: 
-    "h1 h1 h1"
-    "section-1 section-2 section-3"
-    "section-4 section-5 section-6"
-    "small-footer small-footer small-footer";
+    grid-template-areas:
+        "h1 h1 h1"
+        "section-1 section-2 section-3"
+        "section-4 section-5 section-6"
+        "small-footer small-footer small-footer";
 }
 
 .main-footer h1 {
@@ -507,8 +508,8 @@ form button {
     cursor: pointer;
 }
 
-#location, #language {
+#location,
+#language {
     padding: .4rem;
     background-color: rgb(240, 239, 239);
 }
-
