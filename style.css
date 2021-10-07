@@ -1,0 +1,363 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+/* 3rd Photo Section ~ Eleni */
+
+
+
+
+/* FOOTER */
+
+footer {
+    padding: 3rem 8rem;
+}
+
+footer section div {
+    line-height: 2rem;
+}
+
+.small-footer {
+    padding-top: 5rem;
+}
+
+footer section div{
+    padding-top: 4rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* applying grid to the footer */
+
+.main-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: .5fr 1fr 1fr .5fr;
+    grid-template-areas: 
+    "h1 h1 h1"
+    "section-1 section-2 section-3"
+    "section-4 section-5 section-6"
+    "small-footer small-footer small-footer";
+}
+
+.main-footer h1 {
+    grid-area: h1;
+}
+
+.section-1 {
+    grid-area: section-1;
+}
+
+.section-2 {
+    grid-area: section-2;
+}
+
+.section-3 {
+    grid-area: section-3;
+}
+
+.section-4 {
+    grid-area: section-4;
+}
+
+.section-5 {
+    grid-area: section-5;
+}
+
+.section-6 {
+    grid-area: section-6;
+}
+
+/* applying flex to the small footer */
+.small-footer {
+    grid-area: small-footer;
+    display: flex;
+}
+
+.small-footer p:nth-of-type(7) {
+    margin-left: auto;
+}
+
+.small-footer p {
+    padding-right: 1rem;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+/* styling the social media icons */
+
+/* .section-1 p::after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+} */
+
+.fab {
+    margin-right: .5rem;
+}
+
+.fas {
+    font-size: .6rem;
+}
+
+footer .section-1 :nth-child(4) {
+    font-size: 2.5rem;
+    color: rgb(56, 56, 247);
+}
+
+footer .section-1 :nth-child(5) {
+    font-size: 2.5rem;
+    color: rgb(21, 134, 240);
+}
+
+footer .section-1 :nth-child(6) {
+    font-size: 2.5rem;
+    color: red;
+}
+
+footer .section-1 :nth-child(7) {
+    font-size: 2.5rem;
+    color: orange;
+}
+
+/* Forms */
+
+form {
+    margin-top: 1rem;
+    display: flex;
+}
+
+form input {
+    width: 80%;
+    padding: .8rem;
+    background-color: rgb(240, 239, 239);
+    font-size: 1rem;
+}
+
+form button {
+    width: 20%;
+    background-color: rgb(79, 79, 248);
+    color: white;
+    padding: .8rem;
+    cursor: pointer;
+}
+
+#location, #language {
+    padding: .4rem;
+    background-color: rgb(240, 239, 239);
+}
+
+
+
+
+
+
