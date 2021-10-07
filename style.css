@@ -89,6 +89,78 @@ h2 {
 }
 
 
+/* //////main\\\\\\ */
+
+#header-img{
+    width: 80vw;
+    height: 100vh;
+    background-image: url("./assets/header.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-img h1{
+    color: #FD5948;
+    font-weight: bold;
+    font-size: 8rem;
+    
+}
+
+.gallery-one{
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 600px 100px 100px 500px 100px 100px;
+    grid-template-rows: 100px 100px 400px 100px 100px;
+    margin-left: auto;
+}
+
+
+
+.colorbox1{
+    background-color: #FBFFA7;
+    grid-area: 1/2/6/6;
+
+}
+
+#photo1{
+    background-image: url(./assets/photo-1.jpg);
+    background-size: cover;
+    grid-area: 2/1/5/3;
+    z-index: 5;
+}
+
+#photo2{
+    background-image: url(./assets/photo-2.jpg);
+    grid-area: 3/4/4/5;
+    z-index: 5;
+    background-size: cover;
+}
+
+.video{
+    text-align: center;
+}
+
+
+.textbox{
+    width: 50vw;
+    margin: 1rem auto;
+}
+.textbox p{
+    line-height: 1.9rem;
+    padding: 10px;
+
+}
+.textbox p:first-child{
+    font-weight: bold;
+    font-size: 1.4rem;
+
+}
+
+
 
 
 
