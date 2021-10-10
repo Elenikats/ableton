@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
@@ -15,78 +15,86 @@
 
 <body>
     <header>
+        <section class="header-section">
+            <!-- /////Top Header\\\\\\ -->
+            <a href="https://www.ableton.com/en/">
+                <div class="logo">
+                    <img src="./assets/Logo.png" alt="">
+                </div>
+            </a>
+            <nav>
+                <ul>
+                    <!-- ////left side\\\\ -->
+                    <li><a href="https://www.ableton.com/en/live/">Live</a></li>
+                    <li><a href="https://www.ableton.com/en/push/">Push</a></li>
+                    <li><a href="https://www.ableton.com/en/link/">Link</a></li>
+                    <li><a href="https://www.ableton.com/en/shop/">Shop</a></li>
+                    <li><a href="https://www.ableton.com/en/packs/">Packs</a></li>
+                    <li><a href="https://www.ableton.com/en/help/">Help</a></li>
+                    <li>
+                        <input type="checkbox" id="more">
+                        <label class="more" for="more">
+                            <span>More</span>
+                            <span class="plus"></span>
+                            <span class="plus"></span>
+                        </label>
 
-        <!-- /////Top Header\\\\\\ -->
-        <a href="https://www.ableton.com/en/">
-            <div class="logo">
-                <img src="./assets/Logo.png" alt="">
-            </div>
-        </a>
-        <nav>
-            <ul>
-                <!-- ////left side\\\\ -->
-                <li><a href="https://www.ableton.com/en/live/">Live</a></li>
-                <li><a href="https://www.ableton.com/en/push/">Push</a></li>
-                <li><a href="https://www.ableton.com/en/link/">Link</a></li>
-                <li><a href="https://www.ableton.com/en/shop/">Shop</a></li>
-                <li><a href="https://www.ableton.com/en/packs/">Packs</a></li>
-                <li><a href="https://www.ableton.com/en/help/">Help</a></li>
-                <li>
-                    <input type="checkbox" id="more">
-                    <label class="more" for="more">
-                        <span>More</span>
-                        <span class="plus"></span>
-                        <span class="plus"></span>
-                    </label>
-                </li>
-                <!-- //////right side\\\\\ -->
-                <li><a href="https://www.ableton.com/en/trial/">Try Live for free</a></li>
-                <li><a href="https://www.ableton.com/en/login/?next=/en/about/">Log in or register</a></li>
-            </ul>
-        </nav>
 
-        <!-- ////Klick on More Menu\\\\\\\\\\ -->
+                        <!-- ////More Menu\\\\\\\\\\ -->
 
-        <section class="ext-menu">
-            <h2>More on Ableton.com:</h2>
-            <div class="ext-first">
-                <div><a href="https://www.ableton.com/en/blog/">Blog</a></div>
-                <div><a href="https://www.ableton.com/en/classroom/">Ableton for the Classroom</a></div>
+                        <section class="ext-menu">
+                            <h2>More on Ableton.com:</h2>
+                            <div class="ext-first">
+                                <div><a href="https://www.ableton.com/en/blog/">Blog</a></div>
 
-                <div><a href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and Universities</a></div>
+                                <div><a href="https://www.ableton.com/en/classroom/">Ableton for the Classroom</a></div>
 
-                <div><a href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and
-                        Universities</a></div>
+                                <div><a href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges
+                                        and
+                                        Universities</a></div>
 
-                <div><a href="https://www.ableton.com/en/certified-training/">Certified Training</a></div>
-                <div><a href="#">About Ableton</a></div>
-                <div><a href="https://www.ableton.com/en/jobs/">Jobs</a></div>
-            </div>
+                                <div><a href="https://www.ableton.com/en/certified-training/">Certified Training</a>
+                                </div>
 
-            <h2>More from Ableton:</h2>
-            <div class="ext-second">
-                <a href="https://www.ableton.com/en/blog/loop/">
-                    <div>
-                        <h4>Loop</h4>
-                        <p>Watch Talks, Performances and Features from Ableton's Summit for Music Makers</p>
-                    </div>
-                </a><a href="https://learningmusic.ableton.com/">
-                    <div>
-                        <h4>Learning Music</h4>
-                        <p>Learn the fundamentals of music making right in your browser.</p>
-                    </div>
-                </a><a href="https://learningsynths.ableton.com/">
-                    <div>
-                        <h4>Learning Synths</h4>
-                        <p>Get started with synthesis using a web-based synth and accompanying lessons.</p>
-                    </div>
-                </a><a href="https://makingmusic.ableton.com/">
-                    <div>
-                        <h4>Making Music</h4>
-                        <p>Some tips from 74 Creative Strategies for Electronic Producers.</p>
-                    </div>
-                </a>
-            </div>
+                                <div><a href="#">About Ableton</a></div>
+
+                                <div><a href="https://www.ableton.com/en/jobs/">Jobs</a></div>
+                            </div>
+
+                            <h2>More from Ableton:</h2>
+                            <div class="ext-second">
+                                <a href="https://www.ableton.com/en/blog/loop/">
+                                    <div>
+                                        <h4>Loop</h4>
+                                        <p>Watch Talks, Performances and Features from Ableton's Summit for Music Makers
+                                        </p>
+                                    </div>
+                                </a><a href="https://learningmusic.ableton.com/">
+                                    <div>
+                                        <h4>Learning Music</h4>
+                                        <p>Learn the fundamentals of music making right in your browser.</p>
+                                    </div>
+                                </a><a href="https://learningsynths.ableton.com/">
+                                    <div>
+                                        <h4>Learning Synths</h4>
+                                        <p>Get started with synthesis using a web-based synth and accompanying lessons.
+                                        </p>
+                                    </div>
+                                </a><a href="https://makingmusic.ableton.com/">
+                                    <div>
+                                        <h4>Making Music</h4>
+                                        <p>Some tips from 74 Creative Strategies for Electronic Producers.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </section>
+
+                    </li>
+                    <!-- //////right side\\\\\ -->
+                    <li><a href="https://www.ableton.com/en/trial/">Try Live for free</a></li>
+                    <li><a href="https://www.ableton.com/en/login/?next=/en/about/">Log in or register</a></li>
+                </ul>
+            </nav>
         </section>
 
 
@@ -97,22 +105,16 @@
         </div>
     </header>
 
-  
 
-
-
-        <!-- ///////second header\\\\\ -->
-        <div class="sub-header">
-            <a href="#">About</a>
-            <a href="https://www.ableton.com/en/jobs/">Jobs</a>
-        </div>
-    </header>
 
     <!-- ///////////MAIN\\\\\\\\\ -->
     <main>
 
-        <section id="header-img">
-            <h1>Ableton</h1>
+        <section class="header-img-section">
+            <div id="header-img">
+
+                <h1>Ableton</h1>
+            </div>
         </section>
 
         <section class="textbox">
@@ -122,7 +124,7 @@
                 community of dedicated musicians, sound designers, and artists from across the world.</p>
         </section>
 
-        <section class="gallery-one">
+        <section class="grid-1">
             <div class="colorbox1"></div>
             <div id="photo1"></div>
             <div id="photo2"></div>
@@ -152,7 +154,6 @@
                 and most of us are somewhere in between. What connects us is the shared belief that each of us has the
                 skills and knowledge to contribute to something big: helping to shape the future of music culture.</p>
         </div>
-    </main>
 
 
 
@@ -332,21 +333,21 @@
 
 
 
-    
 
 
-   <section class="grid-3">
-       <div class="green"></div>
-       <div class="img-1"></div>
-       <div class="img-2"></div>
-       <div class="img-3"></div>
-   </section>
 
    <div class="textbox">
     <p>We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.
     </p>
     <p>Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We’ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
 </div>
+
+        <section class="grid-3">
+            <div class="green"></div>
+            <div class="img-1"></div>
+            <div class="img-2"></div>
+            <div class="img-3"></div>
+        </section>
 
 
 <section class="image-section">
@@ -360,6 +361,20 @@
 
 
     <hr>
+
+
+
+        <section class="grid-3">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+
+        <hr>
+    </main>
+
 
     <footer>
         <section class="main-footer">
