@@ -402,57 +402,6 @@ input {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 3rd Photo Section ~ Eleni */
 
 .grid-3 {
@@ -492,7 +441,50 @@ input {
 }
 
 
+/* image section */
 
+.image-section {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.image-section img {
+    width: 100%;
+}
+
+/* grid 4 purple section */
+
+.grid-4 {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+}
+
+.purple {
+    background-color: rgb(213,179,255);
+    grid-area: 1/3/14/12;
+}
+
+.grid-4 div {
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.img-left {
+
+    background-image: url(./assets/img-left.jpg);
+    grid-area: 4/2/10/6;
+}
+
+.img-right {
+
+    background-image: url(./assets/img-right.jpg);
+    grid-area: 3/8/11/14;
+}
 
 /* FOOTER */
 
